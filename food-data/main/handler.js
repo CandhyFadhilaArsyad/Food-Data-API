@@ -72,6 +72,7 @@ const getMethodHandler = (request, h) => {
           id: food.id,
           name: food.name,
           description: food.description,
+          receipt: food.receipt,
         })),
       },
     });
