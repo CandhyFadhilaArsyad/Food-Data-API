@@ -6,7 +6,8 @@ const postMethodHandler = (request, h) => {
   const {
     name,
     description,
-    receipt,
+    ingredients,
+    howtocook,
   } = request.payload;
 
   const id = name.replace(/\s+/g, '').toLowerCase();
@@ -17,7 +18,8 @@ const postMethodHandler = (request, h) => {
     id,
     name,
     description,
-    receipt,
+    ingredients,
+    howtocook,
     insertedAt,
     updatedAt,
   };
@@ -72,7 +74,8 @@ const getMethodHandler = (request, h) => {
           id: food.id,
           name: food.name,
           description: food.description,
-          receipt: food.receipt,
+          ingredients: food.ingredients,
+          howtocook: food.howtocook,
         })),
       },
     });
@@ -123,7 +126,8 @@ const putMethodHandler = (request, h) => {
   const {
     name,
     description,
-    receipt,
+    ingredients,
+    howtocook,
   } = request.payload;
 
   if (name === undefined) {
@@ -143,7 +147,8 @@ const putMethodHandler = (request, h) => {
       ...foods[index],
       name,
       description,
-      receipt,
+      ingredients,
+      howtocook,
       updatedAt,
     };
 
