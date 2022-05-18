@@ -91,6 +91,8 @@ const getMethodHandler = (request, h) => {
         id: food.id,
         name: food.name,
         description: food.description,
+        ingredients: food.ingredients,
+        howtocook: food.howtocook,
       })),
     },
   });
