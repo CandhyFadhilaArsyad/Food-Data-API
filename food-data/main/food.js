@@ -17,13 +17,6 @@ const foods = [{
   // eighth: 'And for the last, put fried rice on a dish and it is ready to serve!',
 },
 {
-  id: 'sambalgoreng',
-  name: 'Sambal Goreng',
-  description: 'Sambal pedas di Goreng',
-  ingredients: 'Cabe, Bawang, Penyedap',
-  howtocook: 'Digoreng',
-},
-{
   id: 'ayamgulai',
   name: 'Ayam Gulai',
   description: 'Gulai is a type of food containing rich, spicy and succulent curry-like sauce commonly found in Indonesia, Malaysia and Singapore. The main ingredients of this dish are usually poultry, goat meat, beef, mutton, various kinds of offal, fish and seafood, as well as vegetables such as cassava leaves, unripe jackfruit and banana stem. Gulai is often described as Indonesian curry, although it is also considered a local dish in Malaysia and Singapore. Gulai is a common name to refer to curry dishes in the country, although Indonesian, Malaysian, and Singaporean cuisine also recognise kari (curry).',
